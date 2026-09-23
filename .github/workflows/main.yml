@@ -1,14 +1,15 @@
 name: Hassan
 
 on:
- push:
-   branches: [main]
+  push:
+    branches: [main]
 
 jobs:
   demo:
     runs-on: ubuntu-latest
+    
     steps:
-      -name: "Greetings"
-         run: echo "Hello from Workflow:
+      - name: Greetings
+        run: echo "Hello from Workflow"
          
       
